@@ -78,13 +78,6 @@ function GraphWrapper(props) {
     
     */
 
-    // let endpoint = '';
-
-    // if (view === 'time-series')
-    //       endpoint = '/fiscalSummary';
-
-    // if (view === 'citizenship')
-    //       endpoint = '/citizenshipSummary';
     if (office === 'all' || !office) {
       try {
         const citizenshipRes = await axios.get(
@@ -153,7 +146,7 @@ function GraphWrapper(props) {
     //       },
     //     })
     //     .then(result => {
-    //       console.log([result.data]);
+    //       console.log('res data: ',[result.data]);
     //       console.log('test data: ',test_data);
     //       stateSettingCallback(view, office, [result.data]); // <-- `test_data` here can be simply replaced by `result.data` in prod!
     //     })
@@ -162,7 +155,7 @@ function GraphWrapper(props) {
     //     });
     // } else {
     //   axios
-    //     .get('https://hrf-asylum-be-b.herokuapp.com/cases', {
+    //     .get('https://hrf-asylum-be-b.herokuapp.com/cases/fiscalSummary', {
     //       // mock URL, can be simply replaced by `${Real_Production_URL}/summary` in prod!
     //       params: {
     //         from: years[0],
