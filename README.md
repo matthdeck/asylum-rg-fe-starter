@@ -27,8 +27,7 @@
 
 ## Resources
 
-The following deployed site shows your exact deliverable and what you should be building: 
-- [Deployed Site](https://asylum-rg-fe.vercel.app/)
+[Deployed Site](https://asylum-rg-fe.vercel.app/)
 
 This is what the raw data looks like from HRF:
 - [Sample Case Data](https://github.com/BloomTech-Labs/asylum-rg-fe-starter/blob/main/src/data/COW2021001887-I589Data.csv)
